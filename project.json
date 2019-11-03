@@ -3,6 +3,7 @@
   "description": "Calculate Client Security Hash. Uipath exercise.",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.7.1-beta.571953]",
     "UiPath.Mail.Activities": "[1.7.1-beta.572311]",
@@ -30,7 +31,8 @@
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
-    }
+    },
+    "fileInfos": []
   },
   "expressionLanguage": "VisualBasic"
 }
